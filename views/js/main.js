@@ -494,6 +494,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = preload.href;
+    elem.style.display = 'none';
     elem.style.height = "100px";
     elem.style.width = "77px";
     elem.basicLeft = (i % cols) * s;
@@ -502,4 +503,5 @@ document.addEventListener('DOMContentLoaded', function() {
     items.push(elem)
   }
   updatePositions();
+  for(var i = 0; i < 200; i++) { items[i].style.display = ''}
 });
