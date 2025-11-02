@@ -489,7 +489,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
   const movingContainer = document.querySelector("#movingPizzas1");
-  const preload = document.querySelector('link[as="image"][href="images/pizza2.avif"]');
+  const preload = document.querySelector('link[as="image"][href="images/pizza2.webp"]');
   for (var i = 0; i < 200; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
